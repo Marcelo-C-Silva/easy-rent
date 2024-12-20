@@ -1,0 +1,8 @@
+<div class="dflex">
+  <h1 class="flex-grow-1">Seção de clientes</h1>
+  <div class="list-actions">
+    <%= link_to 'Novo', new_customer_path, class: "btn btn-primary" %>
+  </div>
+</div>
+
+<%= render @customers %>
